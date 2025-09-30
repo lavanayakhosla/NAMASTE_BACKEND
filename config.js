@@ -4,7 +4,7 @@ module.exports = {
       connectionString: process.env.PG_CONN || 'postgres://postgres:postgres@localhost:5432/namaste'
     },
     es: {
-      host: process.env.ES_HOST || ,
+      host: process.env.ES_HOST  ,
       index: process.env.ES_INDEX || 'namaste_terms'
     },
     namasteCodeSystemURI: 'https://namaste.ayush.gov.in/codesystem/NAMASTE',
